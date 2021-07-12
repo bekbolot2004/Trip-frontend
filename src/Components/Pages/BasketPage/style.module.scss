@@ -1,0 +1,32 @@
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 100%;
+
+  .caption {
+    max-width: 250px;
+    text-align: center;
+
+    p {
+      color: #313131;
+      font-size: 25px;
+      font-weight: 700;
+
+      span {
+        color: #2F80ED;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .cartImg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 60px;
+
+  }
+}

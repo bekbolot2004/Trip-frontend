@@ -1,0 +1,39 @@
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+
+    :before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      right: -22px;
+      height: 24px;
+      width: 1.5px;
+      border-radius: 3px;
+      background: white;
+    }
+
+    .sum {
+      font-family: "Arial";
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      color: white;
+      font-size: 13px;
+      background: #000000;
+      border: 2px solid #111111;
+      height: 12px;
+      width: 12px;
+      border-radius: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+  }
+}

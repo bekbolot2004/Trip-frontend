@@ -1,0 +1,15 @@
+.contentCaption {
+
+  h1 {
+    font-weight: 800;
+  }
+
+
+  .houseRow {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+
+  }
+}

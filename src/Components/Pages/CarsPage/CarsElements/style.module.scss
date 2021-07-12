@@ -1,0 +1,103 @@
+.carItem {
+
+  .imgCars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .title {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 25px;
+      z-index: 1;
+
+    }
+
+    .liner {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 50%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(54, 54, 54, 0) 0%, rgba(0, 0, 0, 0.5) 48.68%);
+    }
+  }
+
+  .LtrAndYear {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    //justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    color: #363636;
+    margin: 10px 0;
+
+    .ltr {
+      display: flex;
+      align-items: center;
+
+
+      .icon {
+        width: 30px;
+
+        img {
+          height: 20px;
+        }
+      }
+
+      p {
+        margin-left: 5px;
+      }
+    }
+
+    .year {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  .categoryAndPrice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    //justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    color: #363636;
+    margin: 10px 0;
+
+    .category {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        width: 30px;
+
+        img {
+          height: 30px;
+        }
+      }
+
+      p {
+        margin-left: 5px;
+      }
+    }
+
+    .price {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 30px;
+    }
+  }
+}

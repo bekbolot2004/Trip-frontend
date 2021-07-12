@@ -1,0 +1,126 @@
+.hotelsItem {
+
+  .itemCaption {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    .category {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+      }
+    }
+
+    .roomsAndAirConditioning {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .roomsHow {
+        position: relative;
+        padding-right: 10px;
+        margin-right: 5px;
+
+        span {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: #3E3E3E;
+          color: #ffffff;
+          height: 17px;
+          width: 17px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          border-radius: 100%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .imgHouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+
+    }
+
+    .rating {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(255, 255, 255, 0.46);
+      backdrop-filter: blur(5px);
+      //width: 50px;
+      padding: 0 8px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      z-index: 1;
+      border-radius: 4px;
+
+
+      .imgStar {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 3px;
+
+        img {
+          height: 20px;
+          padding-bottom: 2px;
+        }
+      }
+
+      p {
+        font-size: 23px;
+        font-weight: 700;
+        color: #FFC700;
+
+      }
+    }
+
+    .liner {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 50%;
+      width: 100%;
+      background: linear-gradient(180deg, rgba(54, 54, 54, 0) 0%, rgba(0, 0, 0, 0.5) 48.68%);
+    }
+  }
+
+  .price {
+    display: flex;
+    justify-content: flex-end;
+    color: #2F80ED;
+    margin: 10px 0 5px 0;
+    font-size: 17px;
+
+    span {
+      margin-left: 5px;
+      font-size: 30px;
+    }
+  }
+
+  .title {
+    font-size: 22px;
+    color: #313131;
+    font-weight: 700;
+  }
+
+}
